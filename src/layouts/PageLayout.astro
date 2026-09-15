@@ -6,3 +6,13 @@ import { siteConfig } from "../site-config";
 <MdxPageLayout siteConfig={siteConfig} {...Astro.props}>
   <slot />
 </MdxPageLayout>
+
+<style is:global>
+  /* This course is read for its numbers as much as its prose — tolerances,
+     speeds, minima. Tabular figures keep them aligned down a column, which is
+     the only reason anyone reads a table of them. */
+  .at-table-wrap td,
+  .at-table-wrap th {
+    font-variant-numeric: tabular-nums;
+  }
+</style>
