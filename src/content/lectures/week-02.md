@@ -1,23 +1,39 @@
 ---
-title: Second lecture
+title: Buying agility with stability
 description:
-  Week 2 — the first substantive material, and the run-up to the first review
+  How an aircraft came to be built deliberately unstable, what that bought,
+  and what it cost the person flying it
 week: 2
 date: 2027-03-01
 teachers:
-  - idris-fenn
+  - wren-oyelaran
 related:
-  - sessions/02-first-review
-  - assessments/assignment-1
+  - sessions/02-unstable-by-design
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
+A lecture about a trade that was made once, in the 1970s, and that every
+period of this course is downstream of.
 
-Replace this page. It exists so the lectures listing sorts by week and the
-related block has more than one edge to draw.
+Stability in an aircraft is a restoring tendency: disturb it, and it returns.
+That is a comfortable property and it is not free. The same tendency that
+returns the aircraft to level flight also resists being pointed somewhere
+else, and by the late 1960s that resistance was the limiting factor on how
+quickly a fighter could change what it was doing.
 
-## Outline
+So the trade: move the centre of gravity aft, past the aerodynamic centre, and
+the restoring tendency inverts. Disturbances grow. The aircraft points very
+quickly indeed, and it is no longer flyable by a human being, because the
+corrections required arrive faster than a human can produce them.
 
-- the first substantive material, and where it shows up in practice
-- what the first review is looking for
-- reading before next week
+Which is acceptable, if a computer flies it.
+
+The lecture covers what that computer actually does — sampling, voting,
+redundancy, and what the architecture assumes about its own failure — and ends
+on the question the rest of the course keeps returning to: when the thing
+flying the aircraft is not you, what exactly is your job.
+
+## Reading
+
+The flight control system chapter, and one contemporary account of the type's
+introduction to service. Bring a note of anything in the second that the first
+does not prepare you for.
