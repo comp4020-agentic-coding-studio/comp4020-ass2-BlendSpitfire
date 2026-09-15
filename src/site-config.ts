@@ -3,10 +3,11 @@ import { slopBranding } from "astro-theme-slop";
 import { courseMeta } from "./course-config";
 
 // The underlying collection and URL remain `sessions`; these labels are the
-// language students see. Change them to Studios, Tutorials, Expeditions, etc.
+// language students see. A scheduled block of instruction is a period on every
+// flying training syllabus this course borrows its shape from.
 export const sessionLabels = {
-  singular: "Session",
-  plural: "Sessions",
+  singular: "Period",
+  plural: "Periods",
 } as const;
 
 export const graphCollections = ["sessions", "assessments", "lectures", "people"];
