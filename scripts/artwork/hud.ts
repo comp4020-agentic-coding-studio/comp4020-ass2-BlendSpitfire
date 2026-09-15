@@ -1,10 +1,10 @@
-/* Generates the site artwork: a head-up display symbology set, drawn in the
- * Slop palette rather than HUD green so the hero sits in the same two inks as
- * the rest of the site.
+/* Generates the link-preview card: a head-up display symbology set, drawn in
+ * the Slop palette rather than HUD green so it stays in the house two inks.
  *
  *   node scripts/artwork/hud.ts
  *
- * Writes src/assets/images/hero-home.avif and card.png. */
+ * Writes src/assets/images/card.png only. The home page hero is a photograph,
+ * so this deliberately does not touch hero-home.avif. */
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
@@ -198,7 +198,6 @@ async function write(spec: Spec, out: string, format: "avif" | "png"): Promise<v
   console.log(`${out} — ${spec.width}x${spec.height}, ${(buffer.length / 1024).toFixed(0)} kB`);
 }
 
-await write({ width: 1600, height: 900 }, "src/assets/images/hero-home.avif", "avif");
 await write(
   { width: 1200, height: 630, label: "SLOP4386" },
   "src/assets/images/card.png",
