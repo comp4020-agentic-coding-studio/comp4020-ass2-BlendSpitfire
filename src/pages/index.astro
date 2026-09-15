@@ -5,45 +5,76 @@ import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import heroImage from "../assets/images/hero-home.avif";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
-
-// STARTER_CONTENT: replace the hero artwork and its alt text below, then
-// remove this comment.
 ---
 
 <ContentLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   heroImage={heroImage}
-  heroImageAlt="A lecture theatre reduced to flat gold and black shapes, rows of seats sweeping past the frame, in a two-ink risograph print"
+  heroImageAlt="A head-up display symbology set drawn in gold on near black: a pitch ladder climbing away from the horizon line, a flight path marker, an angle-of-attack bracket, and airspeed and altitude tapes at either edge"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
 
-  <!-- STARTER_CONTENT: replace the authored page below, then remove this comment. -->
+  <p class="lede">This course does not teach air combat.</p>
+
+  <p>
+    It teaches you to take a single-seat jet off the ground, fly one circuit,
+    and land it. Twelve weeks, and that is the whole syllabus. The hard part
+    was never the shooting — it is that this aircraft is difficult to fly,
+    expensive to break, and has nobody in it but you.
+  </p>
+
   <h2>What you will do</h2>
   <p>
-    Say what a student spends their time on — the making, reading, arguing or
-    measuring that fills the weeks. Name the artefact they walk out with.
+    Four weeks on the ground, four in the simulator, and then you fly. Week 1
+    teaches egress, because it is the skill with the shortest deadline. Weeks 2
+    to 4 cover why this airframe cannot fly without the computer that flies it,
+    what that computer will refuse to let you do, and the energy arithmetic
+    every later week spends. Weeks 5 to 8 put you in the box until the circuit
+    is boring.
+  </p>
+  <p>
+    In week 10 you fly the aircraft. This type has no second seat, so your
+    first flight in it is solo, and the nine weeks before it exist because of
+    that. Week 12 is a check ride: one takeoff, one circuit, one landing.
   </p>
 
   <h2>Who it is for</h2>
   <p>
-    Say who this is aimed at and what they need to already know. Be specific
-    enough that someone can rule themselves in or out without emailing you.
+    Final-year students who have done a first course in aerodynamics and can
+    manipulate an energy equation without looking it up. No flying experience
+    is assumed. A tolerance for being told no by a machine is useful, and you
+    will develop one regardless.
+  </p>
+
+  <h2>How you are graded</h2>
+  <p>
+    On one question, asked at the end of every sortie and worth half the
+    course at the end of the last one: can this aircraft fly again tomorrow,
+    and was that the result of what you did rather than what you got away with?
+  </p>
+  <p>
+    Abandoning an approach costs you nothing here. Continuing past a gate you
+    set yourself is the failure, and it stays one even when the landing turns
+    out fine.
   </p>
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>
     <Card title={sessionLabels.plural} href="/sessions/">
-      <p>The weekly schedule and what happens in each teaching session.</p>
+      <p>The twelve weeks, and what happens in each one.</p>
+    </Card>
+    <Card title="Standards" href="/standards/">
+      <p>Every number you are held to, on one page.</p>
     </Card>
     <Card title="Assessment" href="/assessments/">
-      <p>What is marked, what it is worth, and when it is due.</p>
+      <p>Two gates, one written judgement, and the check ride.</p>
     </Card>
     <Card title="People" href="/people/">
-      <p>Who teaches the course and how to reach them.</p>
+      <p>Who teaches this, and who owns the aircraft.</p>
     </Card>
   </CardGrid>
 </ContentLayout>
@@ -64,5 +95,12 @@ import { sessionLabels, siteConfig } from "../site-config";
     color: var(--at-text-secondary);
     background: var(--at-bg-alt);
     font-size: 0.9rem;
+  }
+
+  .lede {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    text-wrap: balance;
+    margin-block-end: 1rem;
   }
 </style>
