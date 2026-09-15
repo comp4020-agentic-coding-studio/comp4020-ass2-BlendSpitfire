@@ -1,53 +1,69 @@
 # Process overview
 
-<!-- TEMPLATE: this file is a shape to fill in, not a form. Replace everything
-     in it with your own overview, and delete this comment — `pnpm
-     check:evidence` will remind you if it's still here. -->
-
-Written by you, for a reader: how you got from the brief to the harness and
-agentic workflow behind this submission. Markers read this file and follow its
-citations; they don't trawl the repo for evidence you didn't point at.
-
-This file is the shape; the course site's
-[assessment page](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#what-you-submit)
-is the requirement, and its
-[word counts](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#word-counts)
-cover every deliverable.
-
 ## What I built
 
-One paragraph: the thing, and the idea behind it.
+**SLOP4386: Jet Fighter Piloting — Departure and Recovery.** Twelve weeks that
+teach you to take a single-seat jet off the ground and bring it back, and that
+refuse to teach air combat. The title is the syllabus and also the threat:
+*departure* is takeoff, and *departure from controlled flight* is the thing
+that kills you.
 
-## How I got here
+## Deciding what a course is
 
-The account of the process: how the work actually went, and how you knew the
-result was right. Tell it in whatever order makes it clear. A weekly prototype
-needs a paragraph or two; an assignment needs more.
+I started from the wrong premise. My first instinct was that "how to fly an
+F-16" fails as a university course because operational training is not an
+academic subject, and I argued myself out of it: a conservatorium teaches you
+to play the cello, and "Coding Fundamentals" is a Java course with a better
+name. Skill is not the disqualifier.
 
-Cite the record as you go, as links whose text is the commit hash or range and
-whose target is this repo's commit or compare URL, so a reader clicks straight
-to the evidence:
+What actually makes the brief work is narrower and funnier — **no civilian
+university could run this course**, because none of them has the aircraft. The
+joke is not that it is unserious. It is that it is completely serious about
+something institutionally impossible.
 
-- one commit: [`a1b2c3d`](https://github.com/YOUR-ORG/YOUR-REPO/commit/a1b2c3d)
-- a range:
-  [`a1b2c3d...e4f5a6b`](https://github.com/YOUR-ORG/YOUR-REPO/compare/a1b2c3d...e4f5a6b)
+That reframing set the scope. A course is one idea held for a semester, so I
+picked the smallest honest promise the subject allows: *the aircraft comes
+back serviceable*. Every later decision fell out of that. The check ride is
+marked holistically ([`0de9032`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/0de9032))
+because a sortie is not the average of its control inputs, and marking it by
+criteria would have rewarded exactly the behaviour the course exists to
+discourage — flying a marginal approach to a landing because each segment was
+individually inside tolerance.
 
-To pair a prompt with the commit it produced, quote the prompt (curated, not a
-full transcript) next to the citation:
+## What I encoded, and where
 
-> the prompt, verbatim
+Two course-design decisions became executable, in a file kept separate from
+the one answering the published spec
+([`c19188d`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/c19188d)).
+The first asserts that the simulator check's deadline falls before the week 10
+sortie. That is the course's actual safety claim, and nothing in the schemas
+would notice if a date edit quietly let a student fly before passing the gate.
+The second requires a named person on every period.
 
-Screenshots are welcome where one carries the point better than a sentence does.
-Commit the file to this repo and link it with a **relative** path, which is what
-makes it render on GitHub: `![alt text](docs/before.png)`. Images don't count
-towards the word count and don't replace the citation.
+The harness carried forward from week 6
+([`208f064`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/208f064))
+did more work than I expected. Its rule against letting build notes leak into
+user-facing copy is what kept twenty-odd content pages reading as a course
+rather than as assembly instructions. I dropped its sections about last week's
+template, which described a platform that no longer exists here.
 
-## Before you ship
+## What I left out on purpose
 
-`pnpm check:evidence` verifies that this comment is gone, that your citations
-resolve to real commits, that a crit week's reflection entry is in
-`reflections/`, and that your `CLAUDE.md` is there. It checks that your account
-is traceable, not that it is good: that is the marker's call.
+No check that the twelve weeks differ from one another. I could have written a
+word-overlap heuristic; it would have gone green on a syllabus that was still
+boring, and a check that passes while the thing is bad is worse than no check.
+That judgement stays mine.
 
-Images aren't checked: unlike a citation whose SHA doesn't resolve, a broken
-image is visible the moment this file is rendered on GitHub.
+## Knowing it was right
+
+Mobile screenshots showed every page clipped at the right edge, including
+pages whose layout I had not touched. Rather than start fixing CSS I measured
+the DOM through the debugging protocol, and the page reported `scrollWidth`
+exactly equal to `clientWidth`: nothing overflowed. Headless Chrome had not
+applied the layout viewport, and I had nearly rebuilt a layout to fix a
+screenshot artefact. The one real defect underneath it was a four-column table
+twelve pixels wide of its container
+([`8c268f3`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/8c268f3)).
+
+The full run is
+[`ea843d9...8c268f3`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/compare/ea843d9...8c268f3).
