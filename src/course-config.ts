@@ -49,8 +49,8 @@ export const courseMeta = slopCourseMetaSchema.parse({
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "Twelve weeks on a single question: can you take a single-seat jet off " +
-    "the ground and bring it back in a condition that permits the next " +
-    "sortie. No air combat. No formation. Departure and recovery only.",
+    "Twelve weeks on taking a single-seat jet off the ground and bringing " +
+    "it back able to fly again: departure and recovery only, with no air " +
+    "combat or formation flying in the syllabus.",
   tags: ["flight operations", "single-seat", "F-16"],
 }) satisfies CourseMetaInput;
