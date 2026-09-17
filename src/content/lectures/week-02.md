@@ -14,26 +14,27 @@ related:
 A lecture about a trade that was made once, in the 1970s, and that every
 period of this course is downstream of.
 
-Stability in an aircraft is a restoring tendency: disturb it, and it returns.
-That is a comfortable property and it is not free. The same tendency that
-returns the aircraft to level flight also resists being pointed somewhere
-else, and by the late 1960s that resistance was the limiting factor on how
-quickly a fighter could change what it was doing.
+Stability in an aircraft is a restoring tendency: disturb it, and it
+returns. That tendency also resists being pointed somewhere else, and by
+the late 1960s that resistance was the limiting factor on how fast a
+fighter could change what it was doing.
 
-So the trade: move the centre of gravity aft, past the aerodynamic centre, and
-the restoring tendency inverts. Disturbances grow. The aircraft points very
-quickly indeed, and it is no longer flyable by a human being, because the
-corrections required arrive faster than a human can produce them.
+The trade that follows:
 
-Which is acceptable, if a computer flies it.
+- move the centre of gravity aft, past the aerodynamic centre
+- the restoring tendency inverts, so disturbances grow instead of damping
+- the aircraft points very quickly, but a human can no longer fly it — the
+  corrections required arrive faster than a person can produce them
 
-The lecture covers what that computer actually does — sampling, voting,
-redundancy, and what the architecture assumes about its own failure — and ends
-on the question the rest of the course keeps returning to: when the thing
-flying the aircraft is not you, what exactly is your job.
+That last point is acceptable only if a computer flies it instead.
+
+The lecture covers what that computer does — sampling, voting, redundancy,
+and what the architecture assumes about its own failure. It ends on the
+question the rest of the course returns to: when the thing flying the
+aircraft is not you, what exactly is your job.
 
 ## Reading
 
-The flight control system chapter, and one contemporary account of the type's
-introduction to service. Bring a note of anything in the second that the first
-does not prepare you for.
+The flight control system chapter, and one contemporary account of the
+type's introduction to service. Bring a note of anything in the second that
+the first does not prepare you for.

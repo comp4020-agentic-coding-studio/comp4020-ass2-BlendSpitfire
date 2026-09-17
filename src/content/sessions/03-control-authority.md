@@ -21,23 +21,21 @@ related:
 Your account from week 2 of a flight control system surprising its pilot, and
 your verdict on whether it was wrong.
 
-## The period
+## In this period
 
-Pull the stick fully aft at speed and the aircraft will give you nine G and
-not one more. Ask for more angle of attack than the limiter allows and the
-nose stops coming up. You are not being overridden by a fault. You are being
-declined.
+Pull the stick fully aft at speed and the aircraft gives you nine G and not
+one more. Ask for more angle of attack than the limiter allows and the nose
+stops coming up. That is not a fault overriding you — it is the system
+declining the request.
 
-This is the week the course's central awkwardness arrives. The limiter is
-there because the airframe has a structural life and you have a physiology,
-and both have numbers. It is also there when you would rather it were not, and
-there are recorded cases of pilots arriving at that opinion at a bad moment.
+The limiter exists because the airframe has a structural life and you have a
+physiology, and both have numbers. It is also present at moments when a pilot
+would rather it were not, which is the week's central awkwardness.
 
-We will separate two things that students routinely collapse together:
+We separate two things students routinely collapse together:
 
-- a **limit** is enforced. The aircraft will not do it. You cannot plan around
-  it and you do not need to remember it under load, because the system
-  remembers for you.
+- a **limit** is enforced. The aircraft will not do it. You do not need to
+  remember it under load, because the system remembers for you.
 - a **restriction** is written down. The aircraft will happily do it. Whether
   it happens is entirely a question of whether you decided not to.
 

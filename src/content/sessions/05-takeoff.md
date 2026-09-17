@@ -20,26 +20,25 @@ related:
 Compute refusal speed for three runway states you will be given. Bring the
 working. You will fly with your own numbers, including if they are wrong.
 
-## The period
+## In this period
 
-The takeoff roll contains a speed, specific to today's weight and runway and
-air temperature, after which you no longer have enough runway left to stop.
-Before it, an engine problem means you abort. After it, the same problem means
-you are going flying with it.
+Every takeoff roll contains a speed — specific to today's weight, runway and
+air temperature — after which there is no longer enough runway left to stop.
+Before it, an engine problem means an abort. After it, the same problem means
+going flying with it.
 
-The number itself is arithmetic you did at home. What the simulator teaches is
-the thing arithmetic cannot: that the decision has to be already made when the
-speed arrives, because the speed arrives in the middle of a very loud thirty
-seconds and does not announce itself.
+The number itself is arithmetic done at home. What the simulator teaches is
+what arithmetic cannot: the decision has to already be made when the speed
+arrives, because it arrives inside a loud thirty seconds and does not
+announce itself.
 
-Students fail this period in one particular way. They do not abort too early
-or continue too late — they hesitate *at* the number, spending the only
-resource that matters, and then do the right thing two seconds after it stopped
-being right.
+Students fail this period one particular way: not by aborting too early or
+continuing too late, but by hesitating at the number — spending the one
+resource that matters, then doing the right thing two seconds after it
+stopped being right.
 
-We will run it repeatedly, with failures inserted at randomised points on
-either side of your refusal speed, until your response stops containing a
-pause.
+The period runs this repeatedly, with failures inserted at randomised points
+on either side of refusal speed, until the response stops containing a pause.
 
 ## Afterwards
 

@@ -44,9 +44,8 @@ teach. Take the go-around on the check ride and you may still be assessed at
 the top of the range.
 
 **Continuing past your own gate is the failure.** Flying a marginal approach
-to a landing because it is the check ride and you want it finished is the
-single behaviour this assessment is designed to detect, and it is not
-recoverable by the landing turning out fine.
+to a landing because it is the check ride is the behaviour this assessment
+is designed to detect. A safe outcome does not offset it.
 
 ## What you submit
 

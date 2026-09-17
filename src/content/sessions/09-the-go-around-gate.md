@@ -18,34 +18,38 @@ related:
 
 ## Before you arrive
 
-Your list from week 3 of restrictions the aircraft would let you break. You
-were told it would be shorter than you think. Bring it anyway.
+Bring your week 3 list of restrictions the aircraft would let you break.
 
-## The period
+## In this period
 
-An approach is a sequence of gates. At each one there is a condition — by this
-point, configured; by this point, on speed and on centreline; by this point,
-visual with the runway — and a gate is not advice. If the condition is not met
-at the gate, the approach is over, and you go around.
+An approach is a sequence of gates: fixed points at which a specific
+condition must be met before the approach continues.
 
-The entire difficulty is that this is trivially easy to agree with here, in a
-briefing room, with nothing at stake, and it is difficult in the only place it
-matters. At the gate you will have reasons. The aircraft is nearly configured.
-The centreline is nearly there. You have fuel. It is almost certainly fine,
-and it usually is, and that is precisely the problem: a decision that is
-usually fine is a decision that trains you to keep making it.
+- by this point, configured
+- by this point, on speed and on centreline
+- by this point, visual with the runway
 
-So the decision is not made at the gate. It is made now, on the ground, in
-advance, in a form that does not require judgement at the moment of use: *if
-not X by Y, then go around*. At the gate you are not deciding. You are
-checking a condition you already committed to.
+If a condition is not met at its gate, the approach ends and the aircraft
+goes around.
 
-We will spend the second half on the question nobody enjoys: which gate you,
-specifically, are going to rationalise past. You know. Say it out loud, in
-front of people, because the version of you on final in week 10 will not be
-listening to anyone else.
+Gates are easy to accept in a briefing room and hard to apply in the
+aircraft. At the gate itself, the reasons to continue always look reasonable:
+the aircraft is nearly configured, the centreline is nearly there, fuel
+remains. A decision that is usually fine is exactly the decision that trains
+a pilot to keep making it.
+
+For that reason, gates are decided in advance rather than at the gate itself.
+Each one is written as a rule before the sortie:
+
+> if not X by Y, then go around
+
+At the gate, the pilot checks a condition rather than exercising judgement.
+
+The second half of the period addresses which gate each student is most
+likely to talk themselves past. Students state this gate to the group before
+flying, since the decision cannot be revisited once airborne.
 
 ## Afterwards
 
-Write your gates down in the form above and carry them. Wren will ask to see
-them before signing your week 10 authorisation.
+Write the gates in the form above and bring them to week 10. Wren reviews
+them before signing the flying authorisation.

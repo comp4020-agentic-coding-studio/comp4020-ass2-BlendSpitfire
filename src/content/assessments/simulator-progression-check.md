@@ -52,6 +52,6 @@ first is worth.
 
 ## What passing it does
 
-It releases the week 10 authorisation for the convenor's signature. Without
-both signatures the aircraft does not leave the line with you in it — not
-late, not conditionally, not with an undertaking to be careful.
+It releases the week 10 authorisation for the convenor's signature. Both
+signatures are required before the aircraft leaves the line with you in
+it; there is no conditional or provisional version of that authorisation.

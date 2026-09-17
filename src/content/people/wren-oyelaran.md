@@ -22,5 +22,6 @@ aircraft is not a thing you win against. It is a thing you are lent, and the
 only outcome the school records is whether it came back able to fly again.
 
 She teaches weeks 1 to 4, runs the week 12 check rides, and signs the
-authorisation for your first solo. If she declines to sign it, that is not a
-mark against you. It means the gate did its job.
+authorisation for your first solo. That signature is withheld until the
+gates covered in weeks 9 and 10 are met, regardless of how many attempts it
+takes.

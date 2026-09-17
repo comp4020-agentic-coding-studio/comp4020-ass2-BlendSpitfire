@@ -22,34 +22,30 @@ related:
 Your written account from week 10 of the point at which you were furthest
 behind the aircraft.
 
-## The period
+## In this period
 
 There is a region of the envelope — very high angle of attack, very low
 airspeed, nose high and going nowhere — where this aircraft is stable. That is
-the problem. It is stable in a state where the wing is not flying, the control
-surfaces are in disturbed air and doing very little, and the flight control
-system, operating exactly as designed, holds you there.
+the problem: the wing is not flying, the control surfaces sit in disturbed
+air, and the flight control system, working exactly as designed, holds the
+aircraft there. The normal control law will not recover it, because the input
+that would is one the limiter exists to prevent.
 
-The normal control law will not recover it, because the input that would
-recover it is one the limiter exists to prevent.
+A switch handles this: manual pitch override removes the limiter and hands
+back the authority the system has withheld all course. The recovery it
+enables is not easy — rock the aircraft in pitch, in time with its own
+oscillation, building amplitude until the nose falls through and the wing
+starts flying again. It costs altitude, sometimes more than is available.
 
-So there is a switch. Manual pitch override removes the limiter, hands you an
-authority the system has spent the whole course withholding, and makes the
-recovery possible without making it easy: you rock the aircraft in pitch, in
-time with its own oscillation, building amplitude until the nose falls through
-and the wing starts flying again. It takes altitude. Sometimes more than you
-have.
+Below a certain altitude the recovery does not fit, and the correct action at
+that altitude is the one practised in week 1, on the ground, with the
+aircraft switched off.
 
-Which is why this period ends where the course began. There is an altitude
-below which the recovery does not fit, and at that altitude the correct action
-is the one you practised in week 1, on the ground, with the aircraft switched
-off.
-
-You will state your decision altitude today, in front of the class, with your
-reasoning. You have revised it twice since week 1. This is the version that
-goes on your card.
+You state your decision altitude today, in front of the class, with your
+reasoning. It has been revised twice since week 1; this version goes on your
+card.
 
 ## Afterwards
 
 The written judgement is due at the end of this week. It is not a report on
-the simulator session; it is the argument for your number.
+the simulator session — it is the argument for your number.

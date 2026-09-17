@@ -21,26 +21,30 @@ related:
 Bring your minimum ejection altitude from week 1 and one sentence defending
 it.
 
-## The period
+## In this period
 
-A conventional aircraft, left alone, tends back towards level flight. This one
-does not. Its centre of gravity sits behind its aerodynamic centre, so a
-disturbance in pitch grows rather than decays. Released, it departs.
+A conventional aircraft, left alone, tends back towards level flight. This
+aircraft does not: its centre of gravity sits behind its aerodynamic centre,
+so a disturbance in pitch grows rather than decays, and released, it departs.
 
-That was a design decision, not a defect. An aircraft that does not resist
-being pointed somewhere is an aircraft that points quickly, and the cost of
-that agility is that a human cannot fly it. Nobody has the reaction time. So
-the aircraft is not flown by a human.
+That is a design decision, not a defect. An aircraft that does not resist
+being pointed somewhere points quickly — but the corrections needed to fly it
+that way arrive faster than a human can produce them, so a human does not fly
+it.
 
-What actually flies it is a set of four flight control computers, sampling
-your stick inputs and the aircraft's state, voting, and moving the surfaces
-many times a second. Your hand does not reach the control surfaces. It reaches
-a computer, which reads your input as a request about what the aircraft should
-be doing, and then does whatever is necessary to achieve that — which is
-frequently not what you would have done.
+Four flight control computers fly it instead. They:
 
-The voting matters. Three computers agreeing outvote one that has failed. Two
-against two is a different day entirely.
+- sample your stick inputs and the aircraft's state
+- vote on the result
+- move the surfaces many times a second
+
+Your hand does not reach the control surfaces. It reaches a computer, which
+reads your input as a request about what the aircraft should be doing and
+does whatever is necessary to achieve that — frequently not what you would
+have done by hand.
+
+The voting matters: three computers agreeing outvote one that has failed, and
+two against two is a different day entirely.
 
 ## Afterwards
 
