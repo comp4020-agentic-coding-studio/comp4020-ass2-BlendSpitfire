@@ -31,6 +31,14 @@ build.
   knowledge of the build process. If it doesn't read that way, revise it
   again.
 
+## Writing style (Claude's own prose)
+
+This covers everything Claude writes as prose --- chat responses, commit
+messages, PR descriptions, docs --- not just on-page copy above. For the
+rules (cutting filler words, hedges, and canned AI phrasing) and for
+drafting or auditing longer text against them, use the `prose-style` skill
+rather than re-deriving the list here.
+
 # Conventions
 
 - When editing this file (CLAUDE.md), write the content in English.

@@ -24,5 +24,7 @@ mise.local.toml
 
 # Claude Code's project directory is machine-local: settings in here can hold
 # your course API key, and this repo goes public when you ship. Your tracked
-# harness is CLAUDE.md (and any AGENTS.md), not this directory.
-.claude/
+# harness is CLAUDE.md (and any AGENTS.md), not this directory --- except
+# project skills, which carry no secrets and are part of the harness too.
+.claude/*
+!.claude/skills/
