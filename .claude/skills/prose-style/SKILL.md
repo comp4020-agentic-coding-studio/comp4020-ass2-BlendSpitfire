@@ -3,12 +3,15 @@ name: prose-style
 description:
   Applies this project's anti-slop writing rules, either while drafting a
   document from scratch or while auditing and polishing text that already
-  exists. Use for "write a README/report/doc", "draft this section", "review
-  this text for style", "does this sound AI-written", "polish this copy", or
-  any request to check prose for filler words, hedges, or canned AI phrasing
-  ("delve", "leverage", "it's worth noting", "Bottom line:", "In short:",
-  "This isn't about X, it's about Y").
-allowed-tools: Read, Edit, Write, Grep
+  exists. Also covers matching website copy's tone to real examples of the
+  page's genre (course site, product page, portfolio, ...) before applying
+  the project's own copy defaults. Use for "write a README/report/doc",
+  "draft this section", "write copy for this page", "review this text for
+  style", "does this sound AI-written", "polish this copy", or any request to
+  check prose for filler words, hedges, or canned AI phrasing ("delve",
+  "leverage", "it's worth noting", "Bottom line:", "In short:", "This isn't
+  about X, it's about Y").
+allowed-tools: Read, Edit, Write, Grep, WebSearch, WebFetch
 ---
 
 # Prose style: cutting AI-slop phrasing
@@ -55,3 +58,22 @@ Two modes. Figure out which one the request is before starting.
 Write the full piece first, applying the rules as you go, then do one pass
 rereading it against the rules list above before finishing — treat it the
 same as a proofread for spelling.
+
+## Website copy: match the genre
+
+When the text is going onto a real, live page (not a doc, reply, or commit
+message), first work out what kind of site it is, then look up real
+examples of that genre — search for and read a few live sites of the same
+kind (a university course site, a product landing page, a portfolio, a
+nonprofit) — and match the tone those examples actually use rather than
+guessing at a generic house style.
+
+`CLAUDE.md`'s copy rules assume an informational/course-style site and say
+not to sound like a pitch. That default doesn't hold everywhere: if the page
+genuinely has a promotional or sales purpose — a product page, a landing
+page meant to convert a visitor — write toward what the real, successful
+examples of that genre do, even where that reads more like a pitch than
+`CLAUDE.md`'s copy rules would otherwise allow. This override only applies
+when the site itself actually has that character; confirm the genre against
+the references before overriding, rather than treating "written for a real
+site" alone as license to sell.
