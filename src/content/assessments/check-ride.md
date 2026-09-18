@@ -30,11 +30,11 @@ tolerances are the published ones you have flown since week 7.
 
 ## How it's marked
 
-Holistically, and the reason is worth stating plainly: a sortie is not the
-average of its control inputs. It is possible to fly every segment inside
-tolerance and still hand back an aircraft you were never in control of, and it
-is possible to fly an untidy circuit with every decision made correctly and at
-the right time. The second is a better sortie and will be marked as one.
+It's marked holistically: a sortie is not the average of its control
+inputs. It is possible to fly every segment inside tolerance and still hand
+back an aircraft you were never in control of, and it is possible to fly an
+untidy circuit with every decision made correctly and at the right time. The
+second is a better sortie and will be marked as one.
 
 Two things the examiner is specifically watching for.
 

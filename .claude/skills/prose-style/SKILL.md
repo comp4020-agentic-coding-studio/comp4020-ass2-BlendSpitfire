@@ -29,6 +29,11 @@ Two modes. Figure out which one the request is before starting.
 
 ## Rules to enforce
 
+The example words/phrases under each rule below are illustrations, not an
+exhaustive list to string-match against. Judge each sentence by the function
+it serves — a violation can use none of the listed words and still break
+the rule's intent (a keyword search alone will under-catch).
+
 - No filler words or hedges: "delve," "foster," "leverage," "it's worth
   noting," "importantly," "genuinely."
 - No canned rhetorical moves: "Question? Answer." framing, "This isn't about
@@ -43,6 +48,13 @@ Two modes. Figure out which one the request is before starting.
 - No invented compound labels (e.g. "exact-head checks") and no hyphenated
   compound adjectives strung together for effect. Use plain verbs and
   prepositions to say the actual relationship.
+- No inspirational or dramatic flourish that adds no information. Judge by
+  whether the sentence could be deleted without losing anything the reader
+  needs — if so, it's decoration, not content (e.g. "Nothing stops you but
+  you" next to a list of hard rules — a self-help-style line, not a
+  technical one). A dramatic-sounding sentence that goes on to correct a
+  real misconception or state a consequence is fine; one that only adds
+  tone is not.
 
 ## Audit mode specifics
 
@@ -77,3 +89,12 @@ examples of that genre do, even where that reads more like a pitch than
 when the site itself actually has that character; confirm the genre against
 the references before overriding, rather than treating "written for a real
 site" alone as license to sell.
+
+The same reference check also applies to register, not just overall tone.
+Even where a site deliberately writes with voice elsewhere, a purely
+operational fact — a schedule note, why something isn't happening, a
+procedural detail — should read as a plain statement first. Check it
+against how real sites of the genre phrase the same kind of notice; if a
+reader skimming for the fact has to parse a rhetorical turn of phrase to get
+it, restate it plainly and keep the voice for where the page is making an
+argument instead.

@@ -32,10 +32,9 @@ proprioception can confirm it. The characteristic failure of this period
 follows from that: you correct, the aircraft has already corrected, you feel
 your own correction arrive as an error, and you correct that.
 
-That is a pilot-induced oscillation. It is worth being precise about the
-name: the aircraft is not oscillating, the pilot is — the system is executing
-a series of requests, each a response to the previous one already being
-answered.
+That is a pilot-induced oscillation: the aircraft is not oscillating, the
+pilot is — the system is executing a series of requests, each a response to
+the previous one already being answered.
 
 The fix is to release the stick rather than correct more gently, and let the
 aircraft settle. It does so in under a second.
