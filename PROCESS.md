@@ -26,20 +26,27 @@ this" quality — one was "Acoustic Archaeology of Buildings," on-brief but
 oddly overworked. I picked the topic myself
 ([`ea843d9`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/ea843d9994468d019b825cc64749c2849b5cb67f)).
 
-Also worth noting: I've seen this discussed elsewhere too — Claude lately
-seems overly cautious and critical, nitpicking ideas or requests even when
-its own reasoning is weak, which adds real friction. I don't think this is
-easy to fix: it at least hasn't swung the other way into blanket "you are
-absolutely right!" agreement, and telling it in the harness to "ease up"
-would likely be too vague and risk letting real issues slip through.
+I think the topic is professional enough, with plenty of content in it.
+Claude's one concern was that it might read too much like technical
+training — but plenty of COMP courses I've taken have had exactly that
+feel, so I didn't treat it as a real problem.
 
 ### Building it
 
 After a short back-and-forth on whether an F-16 course was plausible and
 what it should cover, I had the AI generate the site.
 
-This build needed little visual design and already had a ready-made theme,
-so the visual side went fine.
+What makes a good course site differs by person, but from my own pain
+points: assignments and requirements need to be clearly marked and easy to
+find, with anything graded listed on one page alongside its weight and
+whether it's a hurdle. Ideally these connect to the university's own
+systems — at ANU, a deadline should show up in Canvas's own to-do list.
+Beyond that: every page should be reachable through a clear, guided
+structure, and every contactable lecturer or tutor should be easy to find,
+not buried in a week 1 slide deck. I didn't have to ask for any of this —
+the AI met it unprompted, partly because COMP4020's own site already does,
+and the AI drew on it directly. Visual design and page structure took very
+little effort from me.
 
 The copy was a different story, with two problems. First, it read too much
 like a pitch. Second, it kept slipping in "meta" references to what it
@@ -50,11 +57,11 @@ the AI didn't fully treat that as binding
 ([`208f064`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/208f064654d6dd89c869de74ea6a1992290135dc)).
 
 That was unsettling — the harness had less grip on the AI's output than I'd
-expected. I asked why the rule was ignored; the gist was "the run wasn't
-finished, so it hadn't reread the harness" — meaning the harness fell out of
-memory once enough later content piled on top. So I added a rule to reread
-the harness often enough to keep it in memory. That rule lives in the
-harness too, so whether it holds is something only later behaviour can show.
+expected. I asked why the rule was ignored: the run wasn't finished, so it
+hadn't reread the harness — meaning the harness fell out of memory once
+enough later content piled on top. I added a rule to reread the harness
+often enough to keep it in memory; whether it holds is something only later
+behaviour can show.
 
 Building on that, I asked the AI to model the copy on COMP4020's own course
 homepage — a genuine course introduction, not a promotional page
@@ -67,14 +74,11 @@ I wanted a more fundamental fix. GPT-6 had just shipped with an official
 ["prompting guide"](https://developers.openai.com/api/docs/guides/latest-model)
 — written for GPT, but I think the issues it steers clear of apply to Claude
 too. The harness was also getting long, so I had Claude split the copy rules
-into their own skill, used it to rewrite the copy a few more times, and
-refined the skill's description along the way. I also had it write a second
-skill for arranging a page's visual elements, probably unneeded here
+into their own skill and used it to rewrite the copy a few more times
 ([`03c0d5e`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/03c0d5ed4ad0d3c7edb51c959776b92855957452),
 [`3c74c19`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-BlendSpitfire/commit/3c74c19ceadb7dc68155379939abf4a1dda999b9)).
 By the time the skill was ready, most of the copy already met my bar, so its
-usefulness wasn't well proven — as in earlier write-ups, whether a change
-was right tends to only show up once later work runs into it.
+usefulness wasn't well proven.
 
 ## Before you ship
 
